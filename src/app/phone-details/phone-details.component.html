@@ -1,0 +1,10 @@
+<h1>Smartphone details</h1>
+
+<div class="text" *ngIf="phone">
+    <h3>{{ phone.name }}</h3>
+    <h4>{{ phone.price | currency }}</h4>
+    <h4>{{ phone.description }}</h4>
+
+    <button class="buyButton" (click)="addToCart(phone)">Buy</button>
+  
+</div>

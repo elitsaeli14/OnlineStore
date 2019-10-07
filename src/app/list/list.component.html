@@ -1,0 +1,32 @@
+<h1>TVs</h1>
+
+<div  *ngFor="let television of television; index as televisionId">
+ 
+  <div class= "block">
+    <a [title]="television.name + ' details'" [routerLink]="['/television',televisionId]">
+      <h3 class="name">
+      {{ television.name }}
+      </h3>
+      <img id="photoTV" [src]=television.url [alt]=television.name/>
+    </a>
+  </div>
+</div>
+
+<h1 class="clear">Smartphones</h1>
+
+<div  *ngFor="let phone of phone; index as phoneId">
+ 
+  <div class= "block">
+    <a [title]="phone.name + ' details'" [routerLink]="['/phone',phoneId]">
+      <h3 class="name">
+      {{ phone.name }}
+      </h3>
+      <img id="photoGSM" [src]=phone.url [alt]=phone.name/>
+    </a>
+  </div>
+</div>
+
+
+
+
+

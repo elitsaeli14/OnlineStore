@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+}
+
+.text {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.content {
+    padding-left: 10px;
+    max-width: 300px;
+    min-height: 40px;
+    background-color: rgb(170, 46, 133);
+    border-radius: 5px;
+    padding-bottom : 20px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid rgb(134, 123, 123);
+}
+  
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    min-width: 70px;
+    display: inline-block;
+    
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    padding-top: 3px;
+    text-align: center;
+    font: 15px arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(170, 46, 133);
+    border-radius: 5px;
+}

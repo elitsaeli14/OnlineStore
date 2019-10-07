@@ -1,0 +1,10 @@
+<h1>Tv details</h1>
+
+<div class="text" *ngIf="television">
+    <h3>{{ television.name }}</h3>
+    <h4>{{ television.price | currency }}</h4>
+    <h4>{{ television.description }}</h4>
+
+    <button class="buyButton" (click)="addToCart(television)">Buy</button>
+  
+</div>

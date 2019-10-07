@@ -1,0 +1,34 @@
+h1 {
+  display: block;
+  height: 5px;
+}
+
+.block {
+  float: left;
+  display:block;
+  padding:20px;
+  }
+
+.name {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  background-color: #3f525c;
+  
+}
+
+#photoTV {
+  padding-left:20px;
+  width: 200px;
+  height: 200px;
+}
+
+#photoGSM {
+  width: 110px;
+  height: 200px;
+}
+
+.clear {
+  padding-top: 10px;
+  clear:both;
+}
